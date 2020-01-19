@@ -80,6 +80,6 @@ double det(double** matrix, const uint32_t size)
     }
     };
 
-    std::unique_ptr<bool> check_ñolumn_array(new bool[size]());
-    return determinant(matrix, size, 0, 0, size - 1, check_ñolumn_array.get());
+    std::unique_ptr<bool> check_column_array(new bool[size]());
+    return determinant(matrix, size, 0, 0, size - 1, check_column_array.get());
 }
