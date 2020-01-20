@@ -1,2 +1,2 @@
-# determinant-recursive-algorithms
-first one with extra memory allocation, second without
+# recursive & non-recursive algorithms of determinant calculation
+first one with extra memory allocation, second and third without
